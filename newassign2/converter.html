@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet"  href="style.css"/>
+
+</head>
+<body onload="ra()">
+<p id="qarr">ok</p>       
+
+</body>
+<script>
+
+    function ra(){
+         var qarray = ["If you look back, you will soon be going that way.","Do not mistake temptation for opportunity.","He who laughs last is laughing at you.","The road to riches is paved with homework."];
+        var a = Math.floor(Math.random() * 4);
+        document.getElementById("qarr").innerHTML = qarray[a];
+    }
+
+
+</script>
+</html>
